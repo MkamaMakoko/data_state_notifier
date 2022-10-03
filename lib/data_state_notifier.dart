@@ -7,7 +7,7 @@ import 'package:flutter/foundation.dart';
 import 'package:state_notifier/state_notifier.dart';
 export 'package:data_state_notifier/data_state/data_state.dart';
 export 'package:data_state_notifier/firestore_data.dart';
-export 'package:cloud_firestore/cloud_firestore.dart';
+export 'package:data_state_notifier/object_state/object_state.dart';
 
 abstract class DataStateNotifier<T> extends StateNotifier<DataState<T>> {
   final FirestoreData _firestoreData;
