@@ -8,6 +8,7 @@ import 'package:state_notifier/state_notifier.dart';
 export 'package:data_state_notifier/data_state/data_state.dart';
 export 'package:data_state_notifier/firestore_data.dart';
 export 'package:data_state_notifier/object_state/object_state.dart';
+export 'package:data_state_notifier/filtered_data_state/filtered_data_state.dart';
 
 abstract class DataStateNotifier<T> extends StateNotifier<DataState<T>> {
   final FirestoreData _firestoreData;
